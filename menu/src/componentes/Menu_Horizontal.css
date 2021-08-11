@@ -1,0 +1,65 @@
+.navMenu {
+    background-color: gray;
+    height: 5vh;
+}
+
+.navMenu::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.navMenu ul {
+    list-style: none;
+    text-align: left;
+    display: flex;
+}
+
+.navMenu ul li a:hover {
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+}
+
+/*
+    final configurações do menu principal
+*/
+
+/*
+    configuração das seções - âncoras
+*/
+
+#inicio, #cursos, #contatos, #parceiros, #missao, #sobre {
+    border: 1px solid black;
+}
+
+#inicio {
+    height: 70vh;
+    background-color: greenyellow;
+}
+
+#cursos {
+    height: 90vh;
+    background-color: hotpink;
+}
+
+#contatos {
+    height: 50vh;
+    background-color: orange;
+}
+
+#parceiros {
+    height: 40vh;
+    background-color: thistle;
+}
+
+#missao {
+    height: 70vh;
+    background-color: yellow;
+}
+
+#sobre {
+    height: 10vh;
+    background-color: red;
+}
+
