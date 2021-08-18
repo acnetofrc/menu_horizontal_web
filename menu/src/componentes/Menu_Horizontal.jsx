@@ -16,12 +16,12 @@ export default function Menu() {
                     </ul>
                 </nav>
             </div>
-
+ 
             <section id="inicio">
                 <h2> Nosso Canal</h2>
 
                 <aside className="aside">
-                    <a href="#inicio" id="inicio2">Nosso Canal</a>
+                    <a href="#inicio" id="inicio2">Canal</a>
                     <a href="#cursos" id="cursos2">Cursos</a>
                     <a href="#contatos" id="contatos2">Contatos</a>
                     <a href="#parceiros" id="parceiros2">Parceiros</a>
