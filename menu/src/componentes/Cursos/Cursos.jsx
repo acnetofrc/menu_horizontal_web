@@ -11,15 +11,13 @@ export default function Cursos() {
         <div>
             <CursosHeader />
 
-            <Titulo texto = "Seção de Cursos do Site" />
+            <Titulo texto="Seção de Cursos do Site" />
 
             <div className="cursos">
-            <Switch>
-                <Route exact path = "/" render = {(props) => <Inicio/>}></Route>
-        
-            </Switch>
+                <Switch>
+                    <Route exact path="/" render={(props) => <Inicio />}></Route>
 
-
+                </Switch>
             </div>
 
         </div>
