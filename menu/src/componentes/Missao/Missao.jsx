@@ -7,7 +7,7 @@ export default function Missao() {
     return (
         <div>
 
-            <Titulo texto = "Seção de Missão" />
+            <Titulo texto = "Seção de Missão da Empresa" />
 
             <div className="missao">
 
